@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -not -empty
+find . -empty | cut -d: -f1
